@@ -34,6 +34,7 @@ import { uniswap } from './wallets/uniswap';
 import { unstoppable } from './wallets/unstoppable';
 import { welldone } from './wallets/welldone';
 import { zerion } from './wallets/zerion';
+import { taho } from './wallets/taho';
 
 export const wallets: Record<string, Info> = {
   MetaMask: metamask,
@@ -70,5 +71,6 @@ export const wallets: Record<string, Info> = {
   Enkrypt: enkrypt,
   'Timeless X': timeless,
   Rabby: rabby,
-  Talisman: talisman
+  Talisman: talisman,
+  Taho: taho
 };
